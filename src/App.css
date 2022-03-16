@@ -1,0 +1,70 @@
+.app-mainContainer{
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+/* .overAll-maincontainer{
+  background-image: url('./assets/gray\ background\ with\ motif.png');
+  background-size: cover;
+} */
+
+html { 
+  background: url('./assets/gray\ background\ with\ motif.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.referralContainer .MuiOutlinedInput-root{
+  border-radius:0px !important;
+}
+
+@media screen and (max-width: 612px){
+.mycareer-headings{
+  font-size: 14px !important;
+}
+}
+
+.change_butn{
+  background-color: #ffcd36 !important;
+  border-radius: 0px !important;
+  font-weight: bold !important;
+  padding: 7px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  position: relative !important;
+  left: 13px !important;
+}
+
+.change_butn:hover{
+  background-color: #e4bd47 !important;
+}
+
+.setBackground{
+  background-image: url("./assets/sideLogo.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.lanButton{
+  width: 20%;
+}
+.hereButton{
+  width: 25%;
+  
+}
+@media screen and (max-width: 612px){
+  .lanButton{
+    width: 40%;
+  }
+  .hereButton{
+    width: 60%;
+    
+  }
+}
